@@ -24,24 +24,30 @@ public class ThanksGivingStickerPageTest {
         thanksgivingStickersPage.openPage();
 
         WebElement elementOfEditorPage = DriverUtils.driver.findElement(By.cssSelector("[class=\"sidebarCategoryIndicator-0-2-150\"]"));
+
         thanksgivingStickersPage.clickTryStickersMainButton();
         System.out.println(elementOfEditorPage.isDisplayed());
-        //after every click should be added "Tap on Back button" functionality
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForSMButton();
         System.out.println(elementOfEditorPage.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForFlyersButton();
         System.out.println(elementOfEditorPage.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForInvitations();
         System.out.println(elementOfEditorPage.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForDecorations();
         System.out.println(elementOfEditorPage.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForAllStyles();
         System.out.println(elementOfEditorPage.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickMakeStickersButton();
         System.out.println(elementOfEditorPage.isDisplayed());

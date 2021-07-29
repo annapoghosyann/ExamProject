@@ -25,21 +25,27 @@ public class ThanksGivingStickersPageForcedRegTest {
         WebElement elementOfForcedRegWindow = DriverUtils.driver.findElement(By.cssSelector("[class=\"pa-uiLib-textInput-element-0-2-213\"][name=\"email\"]"));
         thanksgivingStickersPage.clickTryStickersMainButton();
         System.out.println(elementOfForcedRegWindow.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForSMButton();
         System.out.println(elementOfForcedRegWindow.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForFlyersButton();
         System.out.println(elementOfForcedRegWindow.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForInvitations();
         System.out.println(elementOfForcedRegWindow.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForDecorations();
         System.out.println(elementOfForcedRegWindow.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickTryStickersForAllStyles();
         System.out.println(elementOfForcedRegWindow.isDisplayed());
+        DriverUtils.driver.navigate().back();
 
         thanksgivingStickersPage.clickMakeStickersButton();
         System.out.println(elementOfForcedRegWindow.isDisplayed());
